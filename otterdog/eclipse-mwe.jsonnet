@@ -9,8 +9,6 @@ orgs.newOrg('modeling.emf.mwe', 'eclipse-mwe') {
       default_workflow_permissions: "read",
     },
   },
-  teams+: [
-  ],
   webhooks+: [
     orgs.newOrgWebhook('https://ci.eclipse.org/mwe/github-webhook/') {
       content_type: "json",
