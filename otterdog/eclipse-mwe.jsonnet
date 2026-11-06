@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('modeling.emf.mwe', 'eclipse-mwe') {
+orgs.newOrg('modeling.mwe', 'eclipse-mwe') {
   settings+: {
     description: "",
     name: "Eclipse MWE project",
